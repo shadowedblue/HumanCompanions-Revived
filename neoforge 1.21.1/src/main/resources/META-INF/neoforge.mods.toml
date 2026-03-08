@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU"
+
+[[mods]]
+modId="humancompanions"
+version="${file.jarVersion}"
+displayName="Human Companions"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/human-companions"
+authors="justinwon777"
+description='''
+This mod adds human companions that can help you on your journey.
+'''
+credits='''
+    Skins: schwaechlich, LukyLucaz, ShudderShockBailiff, Tankrid, Chronomize, traxll, Soloveigo, RiserSkin, jojohebbeker, Mcc, CrumbleCupcake, neji101, Fieee, Gunshykiki, ShannonGood, sunborn, and deerrie
+    Structures: Dr_Bond, Lemon-Fox, BrokenGamer, barrel_maker, Life of the Party, McKorova, Trickn_Nuggets, and Pufficles
+    '''
+
+[[dependencies.humancompanions]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.humancompanions]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"

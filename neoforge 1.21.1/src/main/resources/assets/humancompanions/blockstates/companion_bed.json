@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "humancompanions:block/companion_bed"
+    }
+  }
+}
