@@ -17,8 +17,11 @@ This mod adds human companions that can help you on your journey. Find them in t
 - Give them food to have them join you
 - They fight for you and can carry items (avoid storing valuables—they can die)
 - **Modes:** Follow, patrol an area, or guard
-- **Companion Bed:** Bind a companion to a bed for respawn and recall with a stick
-- **Companion Recall:** Craftable item (stick + diamond) to bind and recall a companion to you
+
+## New in this revival
+
+- **Companion Bed:** Bind a companion to a bed for respawn after a minecraft day, or use a golden apple to respawn immediately, and recall them to the bed with a stick.
+- **Companion Recall:** Craftable item (stick + diamond) to bind (Shift + Right-click) and recall a companion to you
 - **Structure biome overrides:** Config to add modded biomes (e.g. Biomes O’ Plenty) so companion houses can spawn there
 
 ## Quick Guide
@@ -37,6 +40,8 @@ Companions can have different looks and live in a variety of houses across biome
 - Use `/locate structure humancompanions:companion_house` to find a companion house.
 
 ## Known Issues
+
+**Note:** This revival has not had extensive testing; there may be bugs not listed here. Please report issues on the [GitHub repo](https://github.com/shadowedblue/HumanCompanions-Revived).
 
 - When a companion dies, items may sometimes duplicate or not drop correctly.
 - Archers may occasionally shoot at nothing after killing a mob; use the clear target button.
